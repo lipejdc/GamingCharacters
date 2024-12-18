@@ -2,20 +2,18 @@
 The purpose of this assignment is to implement a simple game character system to practice object-oriented programming concepts such as inheritance, method overriding, method hiding, and constructor chaining.
 
 # Objectives
-1- Understand and apply inheritance and polymorphism in C#.
-2- Use constructors to chain initialization of base classes and derived classes.
-3- Implement method overriding and method hiding to modify behaviors in derived classes.
-4- Write a system that models interactions between characters using specific methods and behaviors.
-
+1. Understand and apply inheritance and polymorphism in C#.
+2. Use constructors to chain initialization of base classes and derived classes.
+3. Implement method overriding and method hiding to modify behaviors in derived classes.
+4. Write a system that models interactions between characters using specific methods and behaviors.
 
 # Requirements
 You will create a character-based battle system consisting of a base class and derived classes, following these instructions:
 
-## Base Class: Character
+## Base Class: `Character`
 The Character class serves as the foundation for all other character types. It should include:
 
 **Properties:**
-
 string name - The name of the character.
 int health - The health points of the character.
 int attack - The attack value of the character.
